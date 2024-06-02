@@ -412,8 +412,6 @@ int main()
             system("cls");
         }
         else if (choice == "4") {
-            //     int a;
-            while (true) {
                 // Admin authentication
                 string username, password;
                 cout << "Enter admin username: ";
@@ -437,7 +435,6 @@ int main()
                     system("cls");
                     continue;
                 }
-            }
         }
         else if (choice == "5") {
             cout << "Thank you, See you next time...\n";
